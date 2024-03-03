@@ -1,0 +1,15 @@
+.App {
+    max-width: 1440px;
+     margin: 0 auto; /* Centers the element horizontally by setting the left and right margins to "auto." */
+    box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+    .App {
+        margin: 0; /* Removes any margins that were set previously. */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
